@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="heading">IMAGE GALLERY..!</h1>
+    <h1 class="primary">Click on Register to start</h1>
+    <div class="space">
+        <img src="./Images/register.jpg" alt="register" class="image selected" id="first">
+        <img src="./Images/verify.jpg" alt="verify" class="image" id="second">
+        <img src="./Images/play.jpg" alt="dice" class="image" id="third">
+        <img src="./Images/result.jpg" alt="result" class="image" id="fourth">
+    </div>
+    <div class="show-space">
+        <div class="subDiv hide">
+            <form action="" class="form hide">
+                <label for="name" style="font-size: x-large; font-weight: bold;" >Enter your Name</label><br>
+                <input  class="inp" type="text" name="name" id="name" required><br><br>
+                <label for="email" style="font-size: x-large; font-weight: bold">Enter your Email</label><br>
+                <input class="inp" type="email" name="email" id="email" required><br><br>
+                <label for="username" style="font-size: x-large; font-weight: bold">Enter Username</label><br>
+                <input class="inp" type="text" name="username" id="username" required>
+                <br><br>
+                <input type="submit" style="width: 100px; height: 50px;">
+            </form>
+            <p class="firstinst hide common"></p>
+            <p class="det1 hide"></p>
+            <p class="det2 hide"></p>
+            <p class="secondinst hide common"></p>
+            <img src="./Images/maindice.png" alt="" class="main hide">
+            <p class=" current hide rolling"></p>
+            <p class="total hide rolling"></p>
+            <p class="final hide common"></p>
+            <p class="token"></p>
+            <img src="./Images/congratulation.jpg" alt="" class="congo hide">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
